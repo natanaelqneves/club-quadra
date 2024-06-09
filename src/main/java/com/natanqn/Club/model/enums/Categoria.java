@@ -1,4 +1,4 @@
-package com.natanqn.Club.model;
+package com.natanqn.Club.model.enums;
 
 public enum Categoria {
     FUTEBOL("Futebol"),

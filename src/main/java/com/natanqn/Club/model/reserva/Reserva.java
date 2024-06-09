@@ -1,6 +1,6 @@
 package com.natanqn.Club.model.reserva;
 
-import com.natanqn.Club.model.Horario;
+import com.natanqn.Club.model.enums.Horario;
 import com.natanqn.Club.model.cliente.Cliente;
 import com.natanqn.Club.model.quadra.Quadra;
 import jakarta.persistence.*;
@@ -20,6 +20,8 @@ public class Reserva {
     @ManyToOne
     private Quadra quadra;
     private LocalDate data;
+    @OneToMany
+    @Enumerated
     private List<Horario> horariosList;
 
     public Reserva() {

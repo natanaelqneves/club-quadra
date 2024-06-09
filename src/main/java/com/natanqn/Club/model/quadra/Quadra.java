@@ -1,6 +1,6 @@
 package com.natanqn.Club.model.quadra;
 
-import com.natanqn.Club.model.Categoria;
+import com.natanqn.Club.model.enums.Categoria;
 import jakarta.persistence.*;
 
 @Entity
